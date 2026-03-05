@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Mateo DeSousa Resume
-permalink: /
 ---
-
-# Mateo DeSousa Resume
 
 ## Education and Awards
 #### B.Sc. Computer Science Major - Statistics Minor @ University of Manitoba (2021 - Present)
