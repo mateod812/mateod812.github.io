@@ -1,6 +1,8 @@
+---
 layout: page
-title: "Mateo DeSousa Resume"
+title: Mateo DeSousa Resume
 permalink: /home
+---
 
 # Mateo DeSousa Resume
 
