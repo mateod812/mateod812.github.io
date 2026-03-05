@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Mateo DeSousa Resume
+layout: default
+title: Mateo DeSousa
 permalink: /
 ---
 
