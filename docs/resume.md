@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mateo DeSousa Resume
-permalink: /home
+permalink: /
 ---
 
 # Mateo DeSousa Resume
