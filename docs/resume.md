@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mateo DeSousa Resume
+permalink: /
 ---
 
 ## Education and Awards
