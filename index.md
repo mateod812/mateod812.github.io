@@ -4,8 +4,9 @@ title: Mateo DeSousa
 permalink: /
 ---
 
-## Education and Awards
-#### B.Sc. Computer Science Major - Statistics Minor @ University of Manitoba (2021 - Present)
+## Education
+### University of Manitoba (2021 - Present)
+B.Sc. Computer Science Major - Statistics Minor
 
 ## Work Experience
 ### IT Support @ Robinson (May 2024 - Present)
