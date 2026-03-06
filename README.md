@@ -2,7 +2,7 @@
 
 # Purpose
 
-The purpose of this README is to provide a walkthrough for using a static site generator and a forge to host a personal website. This is for anyone who is interested in learning more about markdown and how to host personal sites using static site generators and forges. It is primarily meant for readers who have at least some basic command line knowledge. No previous experience using any of the other tools is necessary, there will be instructions and links to external resources along the way.
+The purpose of this README is to provide a walkthrough for using a static site generator and a forge to host a personal website. This is for anyone who is interested in learning more about Markdown and how to host personal sites using static site generators and forges. It is primarily meant for readers who have at least some basic command line knowledge. No previous experience using any of the other tools is necessary, there will be instructions and links to external resources along the way.
 
 Here is an [example](https://mateod812.github.io/) of what you can expect to be able to build after following this guide!
 
@@ -33,6 +33,9 @@ Here is an [example](https://mateod812.github.io/) of what you can expect to be 
     - Download Git [here](https://git-scm.com/install/windows) and click on **the first download link** under the **Windows** tab to install the latest version of Git for Windows.
 
 # Instructions
+
+Andrew Etter's book **Modern Technical Writing** recommends using simple tools such as Markdown, distributed version control systems like Git, and static site generators like Jekyll, when writing technical documentation. These tools make documentation easier to maintain, contribute to, and understand. The following guide applies these principles by providing a walkthrough on hosting Markdown formatted files using GitHub Pages and Jekyll.
+
 ## Create a Repository
 1. Login to your GitHub account and navigate to your **profile page** at ```https://github.com/<your-username-here>```.
 
@@ -62,7 +65,9 @@ Here is an [example](https://mateod812.github.io/) of what you can expect to be 
 
 7. Run our static site generator Jekyll with this command: ```jekyll new --skip-bundle .```. Jekyll will create a bunch of files that we will use for editing and creating our website.
 
-8. Locate the file titled "Gemfile" from the VS Code file explorer. ![](/images/gem.png)
+8. Locate the file titled "Gemfile" from the VS Code file explorer. 
+
+![](/images/gem.png)
 
 9. Delete **this line**: ```# gem "github-pages"``` from the Gemfile.
 
@@ -98,9 +103,10 @@ Here is an [example](https://mateod812.github.io/) of what you can expect to be 
 
 1. Create a **new file** in your local repository folder called ```index.md```
 
-2. Add some markdown formatted **content** to this file. For the purposes of this tutorial, I recreated my resume in markdown format. ([Jump ahead](#markdown-guide) for a Markdown refresher/tutorial)
+2. Add some markdown formatted **content** to this file. For the purposes of this tutorial, I recreated my resume in markdown format. Markdown is used due to its simplicity, flexibility and readability. 
+    - [Jump ahead](#markdown-guide) for a Markdown refresher/tutorial
 
-3. Make sure you have the yaml frontmatter at the very top of this index.md file. It should look like this: ![](/images/yaml.png)
+3. Make sure you have the YAML frontmatter at the very top of this index.md file. It should look like this: ![](/images/yaml.png)
 
 4. Add **your changes** with ```git add .```
 
@@ -132,11 +138,11 @@ There are plenty of additional articles and guides for diving deeper into using 
 
 ### Why are my changes not being applied to my website?
         
-- **Make sure** you committed and pushed your changes to your GitHub repository. Once you confirm that the changes were committed and pushed, check the "Actions" tab of your repository and make sure the workflow for your Jekyll/GitHub Pages build has completed successfully. This workflow can take a few minutes to run.
+- Make sure you committed and pushed your changes to your GitHub repository. Once you confirm that the changes were committed and pushed, check the "Actions" tab of your repository and make sure the workflow for your Jekyll/GitHub Pages build has completed successfully. This workflow can take a few minutes to run.
 
 ### How can I change the theme of my website?
 
-- **Add this line:**  ```remote_theme: pages-themes/<theme-name-here>``` to your _config.yml file and replace ```<theme-name-here>``` with the name of a theme that is supported by the remote_theme plugin for Jekyll. A list of supported themes is found [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll). **Commit and push** your changes to GitHub and GitHub Pages will rebuild your website with the new theme applied
+- Add **this line**:  ```remote_theme: pages-themes/<theme-name-here>``` to your _config.yml file and replace ```<theme-name-here>``` with the name of a theme that is supported by the remote_theme plugin for Jekyll. A list of supported themes is found [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll). Commit and push your changes to GitHub and GitHub Pages will rebuild your website with the new theme applied
 
 ### Why do I have to use Git to setup my personal website?
 
